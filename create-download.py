@@ -8,7 +8,7 @@ path = Path(x)
 
 print(path.mkdir())
 
-url = input("Link Aks ba paswand .jpg ra type namaeed: ")
+url = input("Link Aks ba pasvande .jpg ra type namaeed: ")
 
 y = input("name aks jahate zakhire ra vared namaeed: ")
 
@@ -21,7 +21,3 @@ source = Path(y)
 target = Path(x)
 
 shutil.copy(source, target)
-
-
-#
-
